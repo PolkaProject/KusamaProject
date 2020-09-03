@@ -17,7 +17,7 @@ Teams building within the Kusama ecosystem can add their information to the webs
 
 ## Run this locally
 
-`$ git clone https://github.com/mathwallet/KusamaProject.git`
+`$ git clone https://github.com/PolkaProject/KusamaProject.git`
 
 If you want to improve or add a project, follow these steps:
 
