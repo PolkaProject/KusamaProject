@@ -1,7 +1,7 @@
 // 种类
-const categories = ['Forum','Explorer','Validator','SubstrateBased','Wallet','Developer','Tooling']
+const categories = ['Forum','Explorer','Validator', 'SubstrateBased','Wallet','Developer','Tooling']
 // 标签
-const tags = ['Data','Defi','Desktop','Mobile','Game','IOT','Bridge','Scale','DeFi','SmartContract']
+const tags = ['Data','Defi','Desktop','Mobile','Game','IOT','Bridge','Scale','DeFi','SmartContract','DApp', 'Exchange']
 
 const mapping = [
   {
@@ -574,8 +574,8 @@ const mapping = [
     },
   },{
     title: 'Polkaswap',
-    category:'Wallet',
-    tags: ['Defi'],
+    category:'SubstrateBased',
+    tags: ['Defi',"DApp", "Exchange"],
     description: 'Polkaswap is a non custodial AMM DEX',
     image: './logos/Polkaswap.jpg',
     verified: true,
@@ -583,11 +583,12 @@ const mapping = [
     links: {
       website: 'https://polkaswap.io/',
       telegram:'https://t.me/polkaswap',
+      github:' https://github.com/sora-xor/polkaswap-web'
     },
   },{
     title: 'Fearless Wallet',
     category:'Wallet',
-    tags: ['Defi'],
+    tags: ['Defi','Mobile'],
     description: 'Fearless Wallet is focused on providing the best user experience, fast performance, and secure storage for your accounts. In addition to Kusama and Polkadot features, there will be DEX support in the future releases',
     image: './logos/Fearless.jpg',
     verified: true,
@@ -595,6 +596,20 @@ const mapping = [
     links: {
       website: 'https://soramitsu.co.jp/fearless',
       telegram:'https://t.me/fearlesswallet ',
+      github:'https://github.com/soramitsu?q=fearless'
+    },
+  },{
+    title: 'Sora',
+    category:'SubstrateBased',
+    tags:["DeFi","Token"],
+    description:"Centralized control of economies presents a profound temptation to benefit only a small group of people, at the expense of sustainable development.\r\n\r\nWe believe that economies should be decentralized, yet rational. The Sora Decentralized Autonomous Economy (DAE) is the world's first decentralized economy, where everyone participates to create the best world together.\r\n\r\nSORAMITSU is building Sora with the aim to create a new type of economic system to improve the efficiency of society.",
+    image: './logos/Sora.png',
+    verified: true,
+    proof: 'https://sora.org',
+    links: {
+      website: 'https://sora.org',
+      email:"sora@soramitsu.co.jp",
+      telegram:"https://t.me/sora_xor",
     },
   },
 ]
