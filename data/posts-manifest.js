@@ -611,5 +611,19 @@ const mapping = [
       email:"sora@soramitsu.co.jp",
       telegram:"https://t.me/sora_xor",
     },
+  },{
+    title: 'Aleph.im',
+    category:'Developer',
+    tags:["Cloud","Database","FileStorage"],
+    description:"Decentralized cloud project. Decentralized database (inc. file storage), computation and a DID framework. You can think of aleph.im as a decentralized AWS or firebase.",
+    image: './logos/Aleph.im.jpg',
+    verified: false,
+    proof: 'https://aleph.im',
+    links: {
+      website: 'https://aleph.im',
+      telegram: 'https://t.me/alephim',
+      twitter: 'https://twitter.com/aleph_im',
+      github: 'https://github.com/aleph-im/',
+    },
   },
 ]
